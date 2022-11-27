@@ -8,12 +8,41 @@
         <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="css/produto.css">
         <link rel="stylesheet" href="http://getbootstrap.com">
+        <script type="text/javascript" src="js/produto.js"></script>
     </head>
         <body>
             <header class="container">
                 <h1>
                 <img src="img/logo.png" alt="Logo da Mirror Fashion">
                 </h1>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <button class="navbar-toggler" type="button"
+                            
+                            data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">Mirror Fashion</a>
+                            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                            <ul class="navbar-nav">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Ajuda</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Perguntas frequentes</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Entre em contato</a>
+                            </li>
+                            </ul>
+                            </div>
+                            </nav>
+                    </ul>
+                    </div>
                 <p class="sacola">
                 Nenhum item na sacola de compras
                 </p>
@@ -50,10 +79,10 @@
                     <fieldset class="tamanhos">
                         <legend>Escolha o tamanho:</legend>
                         <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+                        <output for="tamanho" name="valortamanho">42</output>
                         </fieldset>
                     </fieldset>
-                    <button class="comprar">Comprar</button>
-                    <a href="checkout.html">comprar</a>
+                    <button class="comprar"><a href="checkout.html">comprar</a></button>
                     </form>
                     </div>
                         <div class="detalhes">
@@ -103,5 +132,7 @@
                 </ul>
                 </div>
                 </footer>
-        </body>
+                <script type="text/javascript" src="js/jquery.js"></script>
+                <script type="text/javascript" src="js/bootstrap.js"></script>
+            </body>
 </html>
