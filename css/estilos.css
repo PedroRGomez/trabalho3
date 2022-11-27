@@ -1,5 +1,5 @@
 .sacola {
-    background-image: url(C:\Users\phrib\Downloads\MirrorFashion\mirrorfashion\img\sacola.png) ;
+    background-image: url(img\sacola.png) ;
     background-repeat: no-repeat;
     background-position: top right;
     font-size: 14px;
@@ -119,7 +119,7 @@
 
 
                                                 footer {
-                                                    background-image: url(C:\Users\phrib\Downloads\MirrorFashion\mirrorfashion\img\fundo-rodape.png);
+                                                    background-image: url(img\fundo-rodape.png);
                                                     }
                                                
                                                     .social a {
@@ -131,13 +131,13 @@
                                                     text-indent: -99999px;
                                                     }
                                                     .social a[href*="facebook.com"] {
-                                                    background-image: url(C:\Users\phrib\Downloads\MirrorFashion\mirrorfashion\img\facebook.png);
+                                                    background-image: url(img\facebook.png);
                                                     }
                                                     .social a[href*="twitter.com"] {
-                                                    background-image: url(C:\Users\phrib\Downloads\MirrorFashion\mirrorfashion\img\twitter.png);
+                                                    background-image: url(img\twitter.png);
                                                     }
                                                     .social a[href*="plus.google.com"] {
-                                                    background-image: url(C:\Users\phrib\Downloads\MirrorFashion\mirrorfashion\img\googleplus.png);
+                                                    background-image: url(img\googleplus.png);
                                                     }
                                                     footer {
                                                         clear: both;
